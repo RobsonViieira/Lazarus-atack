@@ -1,0 +1,52 @@
+# Ataque Lazarus à Ronin Network (Axie Infinity) - Documentação
+
+## 1. Contexto Geral
+
+- **Data do ataque:** Março de 2022  
+- **Alvo:** Ronin Network — ponte blockchain entre Ethereum e Axie Infinity  
+- **Valor roubado:** Aproximadamente 173.600 ETH + 25,5 milhões USDC (~600 milhões USD)
+
+## 2. Como a Ronin Network funciona
+
+- Rede de 9 validadores que aprovam transações via multi-sig  
+- Necessita pelo menos 5 assinaturas para saques
+
+## 3. Vetor de Ataque
+
+- Comprometimento de 5 dos 9 validadores, obtendo suas chaves privadas  
+- Assinatura fraudulenta das transações para saque dos fundos
+
+## 4. Como obtiveram acesso
+
+- Spear-phishing com malwares via arquivos PDF  
+- Exploração de falhas na infraestrutura para acessar as chaves
+
+## 5. Execução do ataque
+
+- Dois saques fraudulentos:  
+  - 173.600 ETH  
+  - 25,5 milhões USDC  
+- Transações aprovadas com as chaves comprometidas
+
+## 6. Lavagem do dinheiro
+
+- Uso de mixers como Tornado Cash  
+- Dispersão em várias carteiras para dificultar rastreamento
+
+## 7. Impacto e resposta
+
+- Suspensão temporária dos saques pela Ronin e Sky Mavis  
+- Auditorias e reforço da segurança  
+- Um dos maiores roubos da história cripto
+
+## 8. Lições aprendidas
+
+- Proteção rigorosa das chaves privadas dos validadores  
+- Defesa contra spear-phishing e malware  
+- Monitoramento em tempo real das redes de validadores  
+- Revisão constante da arquitetura de segurança
+
+## 9. Referências
+
+- [Relatório oficial Ronin](https://ronin.network/news/incident-2022)  
+- [Análise técnica de ataques a pontes](https://blog.chainalysis.com/reports/bridge-hacks-2022)
